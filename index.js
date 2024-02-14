@@ -4,7 +4,7 @@ function sendMessage(){
   
   const message = "Isso é uma menssagem automática"
 
-  var linkWhatsApp = "https://wa.me/" + inputNumber + "?text=" + encodeURIComponent(message);
+  var linkWhatsApp = "https://wa.me/" + `+5584${inputNumber}` + "?text=" + encodeURIComponent(message);
     
   window.open(linkWhatsApp);
 }
